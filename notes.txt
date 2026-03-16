@@ -1,7 +1,7 @@
 step 1-------> activate virtual environment with all requirements 
 step 2-------> use this command to synthesize the output
 
-    python synthesize.py \
+    python generate.py \
   --restore_step steps \
   --mode single \
   --text "Enter the desired text" \
