@@ -1,6 +1,16 @@
-# full_tts_gui_fixed_final_with_pause.py
+# Full graphical user interface for recording, embedding extraction, and synthesis
 # Fixed: QMediaContent wrapping for setMedia() - no more TypeError on macOS
 # Added: Pause / Resume button that works for both processed samples and synthesized audio
+"""
+this user interface is built using PyQt5 and provides the following features:
+1. Record new speaker using microphone and generate embedding
+2. List available speakers and their embeddings, with option to play processed sample
+3. Synthesize speech from text using selected speaker embedding, with pitch/energy/duration controls
+4. Playback controls for synthesized audio (play/pause/stop)
+imp note: Make sure to run this with the virtual environment activated that has all dependencies installed, and ensure that the generate.py script is in the same directory or adjust the path accordingly.
+---most importantly it can only vary energy,pitch and duration of synthesized audio by 0.1 so if varying those parameters
+on the scale lower than that the generate.py must be used...or tuning of ui.py must be done
+"""
 
 import sys
 import os
@@ -26,7 +36,7 @@ from PyQt5.QtGui import QFont
 
 import sounddevice as sd
 
-# ── Your embedding pipeline ────────────────────────────────────────
+# ── embedding pipeline ────────────────────────────────────────
 from model.pre_trained.ecapa_tdnn_loader import get_ECAPA_TDNN_MODEL, speaker_embedding_extractor
 from audio.tools import trim_silence
 
