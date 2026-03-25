@@ -778,7 +778,7 @@ class TTSApp(QMainWindow):
         )
 
         cmd = [
-            sys.executable, "synthesize6.py",
+            sys.executable, "generate.py",
             "--restore_step", "626000",
             "--mode", "single",
             "--text", text,
