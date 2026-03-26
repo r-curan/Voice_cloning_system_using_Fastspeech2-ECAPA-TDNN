@@ -32,8 +32,8 @@ def generate_embedding(audio_path, output_filename):
     torch.save(embedding.cpu(), output_filename)
     print(f"Saved NORMALIZED embedding: {output_filename} (shape: {embedding.shape})")
 
-if __name__ == "__main__":
-    AUDIO_PATH = "embeddings/LibriTTS/7611_processed.wav"  # Path to your input audio file
-    OUTPUT_NAME = "embeddings/LibriTTS/7611.pt"
+# if __name__ == "__main__":
+#     AUDIO_PATH = "embeddings/LibriTTS/7611_processed.wav"  # Path to your input audio file
+#     OUTPUT_NAME = "embeddings/LibriTTS/7611.pt"
     
-    generate_embedding(AUDIO_PATH, OUTPUT_NAME)
+#     generate_embedding(AUDIO_PATH, OUTPUT_NAME)
