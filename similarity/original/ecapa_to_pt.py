@@ -47,7 +47,7 @@ def convert_ecapa_to_pt(ecapa_path: str):
         return True
 
     except Exception as e:
-        print(f"❌ Conversion Failed: {e}")
+        print(f" Conversion Failed: {e}")
         return False
 
 
