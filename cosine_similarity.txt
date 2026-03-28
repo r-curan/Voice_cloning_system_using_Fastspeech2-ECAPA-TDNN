@@ -1,0 +1,97 @@
+validation data
+
+speaker 548----male
+
+Mel Similarity: 0.689956
+Energy Similarity: 0.63972
+Pitch Similarity: 0.8739057256828188
+Embedding Similarity: 71.65
+
+-------------------------------------------------------------
+
+speaker 724 ---male
+
+Mel Similarity: 0.7120847
+Energy Similarity: 0.65150297
+Pitch Similarity: 0.8467927023117592
+Embedding Similarity: 79.52
+
+-------------------------------------------------------------
+
+speaker 1913 ---male
+
+Mel Similarity: 0.69172696
+Energy Similarity: 0.87033176
+Pitch Similarity: 0.8662405731923277
+Embedding Similarity: 64.74
+
+-------------------------------------------------------------
+
+speaker 2582 ---female
+
+Mel Similarity: 0.7883989
+Energy Similarity: 0.9509835
+Pitch Similarity: 0.8925304990504296
+Embedding Similarity: 82.52
+
+
+-------------------------------------------------------------
+
+speaker 2999 ---male
+
+Mel Similarity: 0.65259824
+Energy Similarity: 0.71061695
+Pitch Similarity: 0.8877619937651847
+Embedding Similarity: 77.97
+
+
+-------------------------------------------------------------
+
+speaker 3869 ---male
+
+Mel Similarity: 0.67978354
+Energy Similarity: 0.64470017
+Pitch Similarity: 0.8118596779367377
+Embedding Similarity: 79.19
+
+
+-------------------------------------------------------------
+
+speaker 4290 --male
+
+Mel Similarity: 0.64028267
+Energy Similarity: 0.82496667
+Pitch Similarity: 0.8501409666513243
+Embedding Similarity: 70.6
+
+
+-------------------------------------------------------------
+
+speaker 6006 --female
+
+Mel Similarity: 0.6761167
+Energy Similarity: 0.816145706
+Pitch Similarity: 0.8771491012614079
+Embedding Similarity: 82.56
+
+
+-------------------------------------------------------------
+
+
+speaker 6054 ---female
+
+Mel Similarity: 0.7609177
+Energy Similarity: 0.79140794
+Pitch Similarity: 0.871989010348421
+Embedding Similarity: 75.53
+
+
+-------------------------------------------------------------
+
+
+speaker 7145 ---female
+
+Mel Similarity: 0.7323708
+Energy Similarity: 0.5936962
+Pitch Similarity: 0.8797661379817452
+Embedding Similarity: 81.57
